@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://kit.fontawesome.com/5ac91b107b.js" crossorigin="anonymous"></script>
+        <title>José Guerrero - Portafolio</title>
+        <link rel="icon" type="image/x-icon" href="img/imagen.ico">
+    </head>
+    <body>
+        <nav class="nav">
+            <button class="hamburger-menu" aria-label="Abrir menú">
+                <span class="hamburger-icon"></span>
+                <span class="hamburger-icon"></span>
+                <span class="hamburger-icon"></span>
+            </button>
+            <ul class="nav_list">
+                <li class="nav_items">
+                    <a href="#home" class="nav_link">Inicio</a>
+                </li>
+                <li class="nav_items">
+                    <a href="#about" class="nav_link">Sobre mi</a>
+                </li>
+                <li class="nav_items">
+                    <a href="#services" class="nav_link">Servicios</a>
+                </li>
+                <li class="nav_items">
+                    <a href="#projects" class="nav_link">Proyectos</a>
+                </li>
+                <li class="nav_items">
+                    <a href="#contact" class="nav_link">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="home" id="home">
+            <div class="introduction">
+                <h1>José Guerrero</h1>
+                <h2>Desarrollador Web</h2>
+                <p>Transformo ideas en realidades digitales</p>
+                <a href="#about" class="more_info">conoce más</a>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <img src="img/profile.jpg" class="profile">
+            <div class="description">
+                <h2>Sobre mi</h2>
+                <p>
+                    Desde antes de iniciar formalmente mi carrera en informática, la programación capturó mi interés con la fascinante posibilidad de crear herramientas digitales
+                    asombrosas desde mi propio computador. Esto me impulsó a explorar sus fundamentos y aprender mi primer lenguaje de programación: Python. Durante mis estudios
+                    descubrí mi pasión por el desarrollo web al realizar mis primeras páginas con HTML y CSS, evolucionando rápidamente hacia proyectos más complejos con PHP
+                    y MySQL que lograron destacar. Tras graduarme, he continuado mi aprendizaje de forma autodidacta y he consolidado mi experiencia trabajando como
+                    freelancer, utilizando herramientas como WordPress. <br><strong>Estoy disponible para trabajo de tiempo completo, medio tiempo o por proyecto.</strong>
+                </p>
+                <a class="download_cv" href="cv/CV_Jose_Guerrero.pdf" download>descargar cv <i class="fa-solid fa-download"></i></a>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2>Habilidades</h2>
+            <p>Tecnologías y herramientas que utilizo</p>
+            <div class="skill_container">
+                <div class="skill">
+                    <img src="img/html.png">
+                </div>
+                <div class="skill">
+                    <img src="img/css.png">
+                </div>
+                <div class="skill">
+                    <img src="img/js.png">
+                </div>
+                <div class="skill">
+                    <img src="img/bootstrap.png">
+                </div>
+                <div class="skill">
+                    <img src="img/python.png">
+                </div>
+                <div class="skill">
+                    <img src="img/php.png">
+                </div>
+                <div class="skill">
+                    <img src="img/django.png">
+                </div>
+                <div class="skill">
+                    <img src="img/mysql.png">
+                </div>
+                <div class="skill">
+                    <img src="img/wordpress.webp">
+                </div>
+                <div class="skill">
+                    <img src="img/shopify.webp">
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <h2>Servicios</h2>
+            <div class="box_container">
+                <div class="box">
+                    <i class="fa-solid fa-pencil"></i>
+                    <h3>Diseño web</h3>
+                    <p>Diseño de interfaces de usuario modernas, amigables y responsive</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Desarrollo web</h3>
+                    <p>Desarrollo a la medida para sitios web personales, empresariales, landing page, eCommerce y blogs. Integración de backend y base de datos</p>
+                </div>
+                <div class="box">
+                    <i class="fa-brands fa-wordpress-simple"></i>
+                    <h3>Desarrollo WordPress</h3>
+                    <p>Creación y gestión de blogs y tiendas. Mantenimiento y optimización web</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div>
+                <h2>Proyectos</h2>
+            </div>
+            <div class="projects_container">
+                <div class="single_project">
+                    <div class="img_container">
+                        <a data-fslightbox="project-a" href="img/projects/spartan/a.png">
+                            <img class="thumbnail" src="img/projects/spartan/a.png" alt="image">
+                        </a>
+                        <a data-fslightbox="project-a" href="img/projects/spartan/b.png"></a>
+                        <a data-fslightbox="project-a" href="img/projects/spartan/c.png"></a>
+                        <a data-fslightbox="project-a" href="img/projects/spartan/d.png"></a>
+                        <a data-fslightbox="project-a" href="img/projects/spartan/e.png"></a>
+                        <a data-fslightbox="project-a" href="img/projects/spartan/f.png"></a>
+                    </div>
+                    <div>
+                        <h4 class="project_title">Spartan Sportswear</h4>
+                        <div class="tech_stack">
+                            <span class="tags">html</span>
+                            <span class="tags">css</span>
+                            <span class="tags">javascript</span>
+                            <span class="tags">django</span>
+                            <span class="tags">sqlite</span>
+                        </div>
+                        <p class="project_description">Proyecto académico. Sitio eCommerce de ropa deportiva.
+                        </p>
+                        <a href="" class="web_link" hidden>Ver proyecto <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="single_project">
+                    <div class="img_container">
+                        <a data-fslightbox="project-b" href="img/projects/market/a.png">
+                            <img class="thumbnail" src="img/projects/market/a.png" alt="image">
+                        </a>
+                        <a data-fslightbox="project-b" href="img/projects/market/b.png"></a>
+                        <a data-fslightbox="project-b" href="img/projects/market/c.png"></a>
+                        <a data-fslightbox="project-b" href="img/projects/market/d.png"></a>
+                        <a data-fslightbox="project-b" href="img/projects/market/e.png"></a>
+                        <a data-fslightbox="project-b" href="img/projects/market/f.png"></a>
+                        <a data-fslightbox="project-b" href="img/projects/market/g.png"></a>
+                        <a data-fslightbox="project-b" href="img/projects/market/h.png"></a>
+                        <a data-fslightbox="project-b" href="img/projects/market/i.png"></a>
+                    </div>
+                    <div>
+                        <h4 class="project_title">Supermercado El Bosque</h4>
+                        <div class="tech_stack">
+                            <span class="tags">html</span>
+                            <span class="tags">css</span>
+                            <span class="tags">javascript</span>
+                            <span class="tags">bootstrap</span>
+                            <span class="tags">php</span>
+                            <span class="tags">mysql</span>
+                        </div>
+                        <p class="project_description">Propuesta de un sitio web con sistema administrativo para supermercado local.
+                            Entre sus funcionalidades tiene filtrado de productos, carrito de compras, formulario de contacto y un sistema de inventario
+                            para usuarios administradores.
+                        </p>
+                        <a href="" class="web_link" hidden>Ver proyecto <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="single_project">
+                    <div class="img_container">
+                        <a data-fslightbox="project-c" href="img/projects/liaopastel/a.png">
+                            <img class="thumbnail" src="img/projects/liaopastel/a.png" alt="image">
+                        </a>
+                        <a data-fslightbox="project-c" href="img/projects/liaopastel/b.png"></a>
+                        <a data-fslightbox="project-c" href="img/projects/liaopastel/c.png"></a>
+                        <a data-fslightbox="project-c" href="img/projects/liaopastel/d.png"></a>
+                        <a data-fslightbox="project-c" href="img/projects/liaopastel/e.png"></a>
+                        <a data-fslightbox="project-c" href="img/projects/liaopastel/f.png"></a>
+                        <a data-fslightbox="project-c" href="img/projects/liaopastel/g.png"></a>
+                        <a data-fslightbox="project-c" href="img/projects/liaopastel/h.png"></a>
+                    </div>
+                    <div>
+                        <h4 class="project_title">Liaopastel</h4>
+                        <div class="tech_stack">
+                            <span class="tags">wordpress</span>
+                            <span class="tags">css</span>
+                        </div>
+                        <p class="project_description">Trabajé en diferentes versiones que se realizaron de este sitio web para una pastelería
+                            española. Como editor se utilizó el Elementor Pro con algo de CSS personalizado y WooCommerce para las funcionalidades de la tienda.
+                        </p>
+                        <a href="https://liaopastel.com/" class="web_link">Ver proyecto <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2>Contacto</h2>
+                <p>¿Tienes alguna consulta o propuesta? <br> Escríbeme para más información</p>
+                <div class="wrapper">
+                    <div class="form">
+                        <form method="POST" class="contact_form" id="form">
+                            <input type="hidden" name="access_key" value="65a24a64-036f-454d-b3b7-a706408485f8">
+                            <input type="hidden" name="subject" value="New Submission from Web3Forms">
+                            <div class="form_group">
+                                <input type="text" name="name" placeholder="Nombre y apellido" required autocomplete="off">
+                            </div>
+                            <div class="form_group">
+                                <input type="email" name="email" placeholder="Correo" required autocomplete="off">
+                            </div>
+                            <div class="form_group">
+                                <textarea name="message" placeholder="Mensaje" rows="7" required></textarea>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                                <input type="submit" name="enviar">
+                            </div>
+                            <div id="result"></div>
+                        </form>
+                    </div>
+                    <div class="contact_info">
+                        <p><i class="fa-solid fa-location-dot"></i>Maracay, Estado Aragua, Venezuela</p>
+                        <p><i class="fa-solid fa-envelope"></i><a href='m&#97;&#105;lt&#111;&#58;jos%&#54;5m&#103;u&#101;&#114;r&#101;r&#111;m2%31&#64;&#103;m&#97;%69l&#46;&#37;6&#51;o%&#54;&#68;'>josemguer&#114;e&#114;&#111;&#109;2&#49;&#64;&#103;ma&#105;l&#46;&#99;&#111;&#109;</a></p>
+                        <h3>Redes</h3>
+                        <a class="social" href="https://www.linkedin.com/in/jose-manuel-guerrero-mora/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>  
+                        <a class="social" href="https://github.com/JGuerrero073" target="_blank" hidden><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="footer">
+            <p class="copyright">&copy; 2025 Jose Guerrero - Todos los derechos reservados</p>
+        </footer>
+        <script src="js/script.js"></script>
+        <script src="fslightbox/fslightbox.js"></script>
+        <script src="js/webform.js"></script>
+    </body>
+</html>
